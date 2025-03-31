@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Desarrollo Web</title>
+  <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+
+    <header>
+    
+        <h1>Portafolio de Firpo Lautaro</h1>
+        
+        <title>Botón de Opciones</title>
+
+  <select id="options" onchange="handleOptionChange()">
+    <option value="">Selecciona...</option>
+    <option value="index.html">perfil</option>
+    <option value="contenidos.html">Contenidos</option>
+    <option value="contacto.html">Contacto</option>
+    <option value="proyectos.html">Proyectos</option>
+  </select>
+
+  <script>
+    function handleOptionChange() {
+        var select = document.getElementById("options");
+        var selectedValue = select.value;
+
+        if (selectedValue) {
+            window.location.href = selectedValue; 
+        }
+    }
+</script>
+
+<p style="margin-top: 10vh;"></p>
+
+<script>
+  function handleOptionChange() {
+    const selectedValue = document.getElementById('options').value;
+    if (selectedValue) {
+      window.location.href = selectedValue; 
+    }
+  }
+</script>
+
+    </header>
+
+<h2>Proyectos</h2>
+
+<p>A continuacion podra ver uno de los distintos proyectos que he realizado en programacion.</p>
+
+<script src="script.js"></script>
+
+<style>
+   
+</style>
+</head>
+<body>
+
+<button class="boton" onclick="window.location.href='dmc1.html';">
+  Ir a DMC1
+</button>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background-image: url('imagene/atardecerdeplaya.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+nav ul {
+  list-style: none;
+  text-align: underline;
+  background-color: #444;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  
+  color: #fff;
+  margin-top: 2rem;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    select:hover {
+      border-color: white;
+    }
+  
+select {
+  position: absolute; 
+  top: 10px;          
+  left: 10px;         
+  padding: 10px;
+  font-size: 16px;
+  
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: white; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px; 
+  margin: 0 20px; 
+}
+
+/* Elimina el borde negro de las imágenes */
+.social-media img {
+  border: none; /* Asegura que no haya borde */
+  outline: none; /* Quita contorno si hay */
+  display: inline-block; /* Evita espacios extra */
+}
+
+footer {
+  text-align: center;
+  
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+   /* ← Evita que otros estilos lo sobrescriban */
+}
+
+footer {
+  text-align: center;
+  
+  color: white;
+  padding: 20px 0; /* Agrega más espacio interno */
+  margin-top: 50px; /* Mueve el footer más abajo */
+  position: relative; /* Mantiene su posición normal */
+  border: none !important;
+}
+
+.social-media {
+  margin-top: 30px; /* Mueve las imágenes más abajo */
+}
+
+.social-media img {
+  margin: 10px; /* Espaciado entre imágenes */
+}
+
+footer p {
+  margin-top: 20px; /* Separa el texto de las imágenes */
+}
+  
+#options {
+  position: fixed;
+  top: 20px;  /* Ajusta la distancia desde la parte superior */
+  right: 5px; /* Ajusta la distancia desde la derecha */
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 2px 2px 5px(0, 0, 0, 0.2);
+  cursor: pointer;
+}

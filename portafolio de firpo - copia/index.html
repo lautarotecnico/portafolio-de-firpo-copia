@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Desarrollo Web</title>
+  <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+  <header>
+    
+    <h1>Portafolio de Firpo Lautaro</h1>
+    
+  </header>
+  
+  <h2>Sobre Mí</h2>
+    <p>Soy un alumno de la Escuela Secundaria Tecnica 5, presentando una pagina con los conceptos aprendidos durante este año. Para poder aprobar la materia de teleinformatica, vivo en mar del plata con mis padres y mi perro iron, mis 2 hermanos estudian en cordoba, y las cosas que mas me gustan hacer son escuchar musica y jugar videojuegos, desde que arranque informatica siempre me a costado aprender pero intento esforzarme al maximo para poder aprobar y no llevarme la mayor cantidad de materias posibles. </p>
+
+  <script src="script.js"></script>
+
+  <title>Botón de Opciones</title>
+
+  <select id="options" onchange="handleOptionChange()">
+    <option value="">Selecciona...</option>
+    <option value="index.html">perfil</option>
+    <option value="contenidos.html">Contenidos</option>
+    <option value="contacto.html">Contacto</option>
+    <option value="proyectos.html">Proyectos</option>
+  </select>
+
+  <script>
+    function handleOptionChange() {
+        var select = document.getElementById("options");
+        var selectedValue = select.value;
+
+        if (selectedValue) {
+            window.location.href = selectedValue; 
+        }
+    }
+</script>
+
+<p style="margin-top: 10vh;"></p>
+
+<script>
+  function handleOptionChange() {
+    const selectedValue = document.getElementById('options').value;
+    if (selectedValue) {
+      window.location.href = selectedValue; 
+    }
+  }
+</script>
+
+</body>
+</html> 

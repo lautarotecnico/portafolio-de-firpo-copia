@@ -1,0 +1,146 @@
+body {
+  margin: 10; 
+  height: 100vh; 
+  background-image: url('imagene/imagendefondo.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+button {
+  background-color: blue;
+  color: blue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del botón */
+.boton {
+  display: inline-block;
+  margin: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: blue;
+  background: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background: blue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+nav ul {
+  list-style: none;
+  text-align: underline;
+  background-color: #444;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    select:hover {
+      border-color: white;
+    }
+  
+select {
+  position: absolute; 
+  top: 10px;          
+  left: 10px;         
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: white; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px; 
+  margin: 0 20px; 
+}
+  

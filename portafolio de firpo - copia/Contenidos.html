@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Desarrollo Web</title>
+  <link rel="stylesheet" href="portafolio.css">
+
+</head>
+<body>
+  <header>
+    
+    <h1>Portafolio de Firpo Lautaro</h1>
+
+    <title>Botón de Opciones</title>
+    <style>
+       
+       
+    </style>
+</head>
+<body>
+
+    <select id="options" onchange="handleOptionChange()">
+        <option value="">Selecciona...</option>
+        <option value="index.html">Perfil</option>
+        <option value="contenidos.html">Contenidos</option>
+        <option value="contacto.html">Contacto</option>
+        <option value="proyectos.html">Proyectos</option>
+    </select>
+
+    <script>
+        function handleOptionChange() {
+            var select = document.getElementById("options");
+            var selectedValue = select.value;
+
+            if (selectedValue) {
+                window.location.href = selectedValue; 
+            }
+        }
+    </script>
+
+    <p style="margin-top: 10vh;"></p>
+  
+    <script>
+      function handleOptionChange() {
+        const selectedValue = document.getElementById('options').value;
+        if (selectedValue) {
+          window.location.href = selectedValue; 
+        }
+      }
+    </script>
+
+  </header>
+
+  <section id="skills">
+    <h2>Contenidos vistos este año:</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+    </ul>
+  </section>
+  
+  <section id="JavaScript">
+    <h2>JavaScript</h2>
+    
+      <h3>Descripción de JavaScript:</h3>
+      <p> JavaScript es un lenguaje de programación interpretado y orientado a objetos que se utiliza principalmente
+        para el desarrollo de aplicaciones web interactivas. Permite la manipulación dinámica del contenido del DOM,
+        la validación de formularios y la comunicación con servidores mediante AJAX o APIs modernas como Fetch.</p>
+
+      </p>
+      <p>
+        Características clave:
+      </p>
+      <ul>
+        <li>Es compatible con todos los navegadores modernos.</li>
+        <li>Permite la manipulación del DOM para actualizar contenido dinámicamente.</li>
+        <li>Soporta programación asíncrona con promesas y async/await.</li>
+        <li>Extensible mediante bibliotecas como React, Angular y Vue.js.</li>
+
+    </div>
+    <div class="html">
+      <h3>html</h3>
+      <p>Descripción de html:</p>
+      <p>
+        HTML (HyperText Markup Language) es el lenguaje estándar para la creación de páginas web. Es un lenguaje
+        de marcado que estructura el contenido de un sitio utilizando etiquetas específicas.
+      </p>
+      <p>
+        Características clave:
+      </p>
+      <ul>
+        <li>Define la estructura básica de una página web.</li>
+        <li>Es compatible con estilos y scripts para enriquecer la experiencia del usuario.</li>
+        <li>Utiliza etiquetas como &lt;div&gt;, &lt;h1&gt;, &lt;p&gt; para organizar contenido.</li>
+
+    </div>
+
+  </div>
+  <div class="HTML5">
+    <h3>HTML5</h3>
+    <p>Descripción de HTML5:</p>
+    <p>
+      HTML5 es la versión más reciente de HTML. Introduce nuevas características y etiquetas diseñadas para mejorar la semántica, accesibilidad y la interacción multimedia en las páginas web.
+    </p>
+    <p>
+      Características clave:
+    </p>
+
+    <li>Soporta etiquetas multimedia como &lt;audio&gt; y &lt;video&gt; sin necesidad de plugins.</li>
+    <li>Introduce elementos semánticos como &lt;header&gt;, &lt;footer&gt;, &lt;article&gt; y &lt;section&gt;.</li>
+    <li>Permite la creación de aplicaciones offline mediante almacenamiento local y caché.</li>
+
+
+  </div>
+  <div class="CSS">
+<h3>CSS</h3>
+<p>Descripción de CSS:</p>
+<p>
+  CSS es un lenguaje de estilos que se utiliza para definir la apariencia visual de un documento HTML. Permite separar el contenido de la presentación, facilitando el diseño de sitios web
+  atractivos y responsivos.
+</p>
+   
+<p>
+  Características clave:
+</p>
+
+<ul>
+  <li>Permite aplicar estilos como colores, fuentes y márgenes a los elementos HTML.</li>
+  <li>Soporta diseño responsivo mediante media queries.</li>
+  <li>Incluye sistemas avanzados de diseño como Flexbox y CSS Grid.</li>
+  <li>Es compatible con animaciones y transiciones.</li>
+</ul>
+
+<h4>Las redes de computadoras</h4>
+
+<p>Una red de computadoras es un conjunto de equipos (computadoras y/o
+  dispositivos) conectados por medio de cables, señales, ondas o cualquier otro
+  método de transporte de datos, que comparten Información (archivos), recursos
+  
+  (servidores,, impresoras, conexión a internet), servicios (acceso a internet, E-
+  mail, chat, juegos).
+  
+  Una red de comunicaciones es un conjunto de medios técnicos que permiten la
+  comunicación a distancia entre equipos autónomos. Normalmente se trata de
+  transmitir datos, audio y vídeo a través de diversos medios de transmisión (aire,
+  cable de cobre, fibra óptica).
+  Desde sus inicios una de las razones para instalar una red de computadoras era
+  compartir recursos, como discos, impresoras, servidores, conexiones a internet.
+  Ahora existen además otras razones:</p>
+
+  <ul>
+
+<li> Disponibilidad del software de redes. El disponer de un software
+  multiusuario de calidad que se ajuste a las necesidades de la empresa. Por
+  ejemplo: Se puede diseñar un sistema de puntos de venta ligado a una red
+  local concreta. El software de redes puede bajar los costos si se necesitan
+  muchas copias del software.</li>
+
+<li> Trabajo en común. - Conectar un conjunto de computadoras personales
+formando una red que permita que un grupo o equipo de personas
+involucrados en proyectos similares puedan comunicarse fácilmente y
+compartir programas o archivos de un mismo proyecto.</li>
+
+<li> Actualización del software. Si el software se almacena de forma
+  centralizada en un servidor es mucho más fácil actualizarlo. En lugar de
+  tener que actualizarlo individualmente en cada uno de los PC de los
+  usuarios, pues el administrador tendrá que actualizar la única copia
+  almacenada en el servidor.</li>
+
+<li> Copia de seguridad de los datos. Las copias de seguridad son más simples,
+ya que los datos están centralizados.</li>
+
+<li> Ventajas en el control de los datos. Como los datos se encuentran
+  centralizados en el servidor, resulta mucho más fácil controlarlos y
+  recuperarlos. Los usuarios pueden transferir sus archivos vía red antes que
+  usar pendrives, discos, etc.</li>
+
+<li> Uso compartido de las impresoras.</li>
+
+<li> Correo electrónico, redes sociales y difusión de mensajes. Permite que los
+  usuarios se comuniquen más fácilmente entre sí. Se pueden convenir
+  reuniones y establecer calendarios.</li>
+
+<li> Ampliación del uso con terminales tontas, es decir compuestas solo por
+  teclado, monitor y mouse, sin CPU. Una vez montada la red local, pasa a 2
+  ser más barato el automatizar el trabajo de más empleados por medio del
+  uso de terminales tontas en la red.</li>
+
+<li> Seguridad. La seguridad de los datos puede conseguirse por medio de los
+  servidores que posean métodos de control, tanto software como hardware.
+  Las terminales tontas impiden que los usuarios puedan extraer copias de
+  datos para llevárselos fuera del edificio.</li>  
+  </ul>
+
+<h5>Protocolo TCP-IP</h5>
+
+<u>
+<li>
+  TCP (Protocolo de Control de Transmisión): Se encarga de dividir los datos en paquetes para enviarlos a través de la red y asegurarse de que lleguen sin errores y en el orden correcto.</li>
+
+<li>IP (Protocolo de Internet): Es responsable de la dirección y el enrutamiento de los paquetes de datos entre dispositivos conectados a la red, utilizando direcciones IP únicas para identificar cada dispositivo.<li>
+
+<li>Funcionamiento conjunto: TCP y IP trabajan en conjunto para asegurar una transmisión confiable y eficiente de datos a través de Internet, proporcionando un estándar universal que permite la interoperabilidad entre diferentes dispositivos y redes.</li> 
+</u>
+
+<p>
+<h6>The Virtual Revolution</h6>
+</p>
+
+<u>
+<li>La Web y el Poder – Examina cómo Internet ha cambiado la distribución del poder, dando más voz a las personas, pero también permitiendo la vigilancia masiva.</li>
+
+<li>Economía Digital – Analiza el impacto de la Web en los negocios y cómo gigantes como Google, Amazon y Facebook han moldeado la economía.</li>
+
+<li>Revolución Social – Explora cómo las redes sociales han cambiado la comunicación, la política y la interacción humana.</li>
+
+<li>El Futuro de Internet – Discute los desafíos éticos y tecnológicos de la era digital, como la privacidad, la seguridad y la influencia de la inteligencia artificial.</li>
+
+</u>
+
+<p>
+<h7>VPN</h7>
+</p>
+
+<u>
+<li>Una VPN (Virtual Private Network, o Red Privada Virtual) es una tecnología que crea una conexión segura y cifrada entre tu dispositivo e Internet. Permite navegar de forma privada, protegiendo los datos y ocultando la dirección IP del usuario.</li>
+
+<li>como funciona?</li>
+
+<li>Cuando te conectas a una VPN, tu tráfico de Internet se redirige a través de un servidor remoto operado por el proveedor de VPN.</li>
+
+<li>La VPN cifra los datos, lo que impide que terceros (como hackers, gobiernos o proveedores de Internet) puedan espiar tu actividad en línea.</li>
+
+<li>Además, al conectarte a servidores en diferentes países, puedes simular estar en otra ubicación, lo que permite acceder a contenido restringido geográficamente.</li>
+<p>
+<li>BENEFICIOS DE USAR EL VPN:</li>
+
+<li> Privacidad y anonimato: Oculta tu dirección IP y cifra tu conexión.</li>
+
+<li>Seguridad en redes públicas: Protege tus datos en Wi-Fi públicas.</li>
+
+<li>Acceso sin restricciones: Permite desbloquear contenido censurado o con restricciones geográficas.</li>
+
+<li>Evita rastreo y publicidad dirigida: Reduce la recopilación de datos por parte de sitios web y anunciantes</li>
+</p>
+
+<p>
+<h8>The Imitation Game</h8>
+</p>
+
+<u>
+
+<li>SINOPSIS:</li>
+
+<li>La historia sigue a Turing y su equipo de criptógrafos en Bletchley Park, quienes trabajan contrarreloj para romper el código Enigma, utilizado por los alemanes para transmitir mensajes militares cifrados. A pesar de enfrentarse a la incredulidad de sus superiores y la hostilidad de sus colegas, Turing desarrolla una máquina precursora de la computación moderna, lo que finalmente ayuda a los Aliados a ganar la guerra.
+La película también explora la vida personal de Turing, incluyendo su homosexualidad, que en la época era ilegal en el Reino Unido. A pesar de sus contribuciones a la victoria aliada y al desarrollo de la informática, fue condenado por su orientación sexual y sometido a una castración química.</li>
+<p>
+<li>TEMAS CLAVES:</li>
+
+<li>El papel de la criptografía en la guerra</li>
+
+<li>El nacimiento de la inteligencia artificial y la computación moderna</li>
+
+<li>El prejuicio y la persecución por la orientación sexual</li>
+
+<li>El conflicto entre el genio y la sociedad</li>
+</p>
+</u>
+<p>
+
+<li>USO CONSCIENTE DE INTERNET:</li>
+
+<li>El uso consciente de Internet implica navegar de manera segura, ética y responsable, evitando riesgos como la desinformación, la sobreexposición y las amenazas a la privacidad.</li>
+
+<li>PRINCIPALES ASPECTOS DEL USO CONSCIENTE:</li>
+<li>Protección de la privacidad</li>
+
+<li>Consumo crítico de información</li>
+
+<li>Ciberseguridad</li>
+
+<li>Tiempo de pantalla equilibrado</li>
+
+<li>Respeto y ética digital</li>
+
+<p>
+<h9>IPv4 (Internet Protocol version 4)</h9>
+
+<li>Características de IPv4:</li>
+
+<li>Direcciones de 32 bits</li>
+
+<li>Espacio limitado</li>
+
+<li>Uso de NAT (Network Address Translation)</li>
+
+<li>Menor seguridad incorporada</li>
+
+<li>Dependencia de configuraciones manuales o DHCP</li>
+
+</p>
+
+<p>
+
+<h10>IPv6 (Internet Protocol version 6)</h10>
+
+<li>Características de IPv6:</li>
+
+<li>Direcciones de 128 bits</li>
+
+<li>Espacio prácticamente ilimitado</li>
+
+<li>Autoconfiguración automática (SLAAC)</li>
+
+<li> Mayor seguridad</li>
+
+<li>Eficiencia en el enrutamiento</li>
+
+<il>Compatibilidad con IoT</il>
+
+</p>
+
+</p>
+</u>
+
+</body>
+</html> 
